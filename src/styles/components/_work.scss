@@ -20,9 +20,15 @@
       cursor: none;
       color: $primary;
     }
-    #marvelApp, #graphql, #twitter, #snap, #cssfr, #irc, #api {
+    #marvelApp,
+    #graphql,
+    #twitter,
+    #snap,
+    #cssfr,
+    #irc,
+    #api {
       img {
-        &:hover{
+        &:hover {
           opacity: 0.7;
         }
       }
@@ -51,7 +57,7 @@
       align-items: flex-end;
       img {
         max-width: 30vw;
-        padding-top: 3rem;
+        margin-top: 3rem;
       }
       p:not(.skill) {
         font-family: "Raleway", sans-serif;
@@ -173,6 +179,8 @@
         cursor: none;
         color: $primary;
       }
+      #marvelApp,
+      #graphql,
       #twitter,
       #snap,
       #cssfr,
@@ -193,7 +201,8 @@
           max-width: 30vw;
         }
       }
-      #cssfr {
+      #cssfr,
+      #graphql {
         img {
           padding-top: 0;
         }
@@ -215,6 +224,8 @@
       .skill {
         font-size: 1.3rem;
       }
+      #marvelApp,
+      #graphql,
       #twitter,
       #snap,
       #cssfr,
