@@ -7,7 +7,7 @@ import snap from "../assets/img/snap.png";
 import cssfr1 from "../assets/img/cssfr1.png";
 import cssfr2 from "../assets/img/cssfr2.png";
 import IRC from "../assets/img/IRC.png";
-import API from "../assets/img/API.png";
+import API from "../assets/img/expressApi.png";
 
 export default function Work() {
   return (

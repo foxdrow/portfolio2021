@@ -3,7 +3,7 @@ import logo from "../assets/img/Logo foxdrow blue.png";
 import dq11 from "../assets/img/AdorableShrillCougar-size_restricted.gif";
 import music from "../assets/img/music.jpg";
 import catRead from "../assets/img/catRead.webp";
-import CV from "../assets/download/Rphael Saverys CV.pdf";
+import CV from "../assets/download/CV-Raphael-Saverys.pdf";
 
 export default function About() {
   return (
@@ -12,21 +12,20 @@ export default function About() {
       <section id="whoIAm">
         <div className="textBox">
           <h3>Who I am</h3>
-          <p>I am a Nantes based developer specialised in web</p>
-          <p>I am currently a 1st year student at Epitech</p>
-          <p>I am looking for a 14 month internship on September 2021</p>
+          <p>I am Raphael, Full-stack developer with knowledge of JavaScript frameworks, both frontend and backend with a focus on React and Node.js.</p>
+          <p>I am above all a self-taught person, but I followed a 1-year web curriculum at Epitech Nantes.</p>
           <p className="skill">
             autonomous eager analytic organized teamwork quickLearner
           </p>
           <h4>Languages</h4>
-          <p className="skill">JavaScript HTML CSS PHP Python SQL</p>
+          <p className="skill">JavaScript TypeScript HTML CSS PHP Python SQL</p>
           <h4>Framework</h4>
           <p className="skill">
-            React.js ReactNative Node.js Redux Express.js Socket.io Mysql
-            MongoDB Sass Bootstrap Wordpress
+            React.js ReactNative Node.js GraphQL Docker Redux Express.js Socket.io Mysql
+            MongoDB Firebase Sass Bootstrap
           </p>
           <h4>Softwares and Others</h4>
-          <p className="skill">GitHub Photoshop AdobeXD Illustrator</p>
+          <p className="skill">GitHub Vim Photoshop AdobeXD</p>
           <div className="cvButton">
             <a className="CV" href={CV} download>
               CV
