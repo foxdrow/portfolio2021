@@ -1,4 +1,7 @@
 import React from "react";
+import marvelApp1 from "../assets/img/marvelApp1.png";
+import marvelApp2 from "../assets/img/marvelApp2.png";
+import graphql from "../assets/img/graphql.png";
 import twitter from "../assets/img/twitter.png";
 import snap from "../assets/img/snap.png";
 import cssfr1 from "../assets/img/cssfr1.png";
@@ -11,6 +14,36 @@ export default function Work() {
     <div id="work">
       <h2>Work projects</h2>
       <section id="projects">
+        <div id="marvelApp">
+          <a href="https://github.com/foxdrow/MarvelApp" target="_blank">
+            <h4>Marvel App</h4>
+          </a>
+          <p>
+            This web app is built in React, Nodejs and styling with sass and is
+            a glossary of all Character, Comics and Creators of Marvel Comics.
+          </p>
+          <p className="skill">TypeScript React Sass ApiRequest</p>
+          <a href="https://github.com/foxdrow/MarvelApp" target="_blank">
+            <img src={marvelApp1} className="topImage"></img>
+            <img src={marvelApp2}></img>
+          </a>
+        </div>
+        <div id="graphql">
+          <a
+            href="https://github.com/foxdrow/basicGraphQLSocialAPI"
+            target="_blank"
+          >
+            <h4>GraphQL API</h4>
+          </a>
+          <p>I have create a basic social API using GraphQL and the prisma.io v2 ORM</p>
+          <p className="skill">JavaScript GraphQL Node.js PrismaV2</p>
+          <a
+            href="https://github.com/foxdrow/basicGraphQLSocialAPI"
+            target="_blank"
+          >
+            <img src={graphql}></img>
+          </a>
+        </div>
         <div id="twitter">
           <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
             <h4>Twitter PHP</h4>
@@ -20,7 +53,9 @@ export default function Work() {
             (tweet, messaging, followers, following...)
           </p>
           <p className="skill">PHP MySql JavaScript Jquery</p>
-          <img src={twitter}></img>
+          <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
+            <img src={twitter}></img>
+          </a>
         </div>
         <div id="snap">
           <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
@@ -28,7 +63,9 @@ export default function Work() {
           </a>
           <p>A Snapchat clone built with React native 👻</p>
           <p className="skill">JavaScript ReactNative Node.js</p>
-          <img src={snap}></img>
+          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
+            <img src={snap}></img>
+          </a>
         </div>
         <div id="cssfr">
           <a href="https://github.com/foxdrow/my_css_framework" target="_blank">
@@ -36,8 +73,10 @@ export default function Work() {
           </a>
           <p>A CSS Framework realise with Sass</p>
           <p className="skill">SCSS CSS HTML</p>
-          <img src={cssfr1} className="topImage"></img>
-          <img src={cssfr2}></img>
+          <a href="https://github.com/foxdrow/my_css_framework" target="_blank">
+            <img src={cssfr1} className="topImage"></img>
+            <img src={cssfr2}></img>
+          </a>
         </div>
         <div id="irc">
           <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank">
@@ -45,17 +84,32 @@ export default function Work() {
           </a>
           <p>A IRC chat Application create with Socket.io</p>
           <p className="skill">JavaScript Socket.io React Node.js SCSS</p>
-          <img src={IRC}></img>
+          <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank">
+            <img src={IRC}></img>
+          </a>
         </div>
         <div id="api">
-          <a href="https://github.com/foxdrow/task-manager-rest-api" target="_blank">
+          <a
+            href="https://github.com/foxdrow/task-manager-rest-api"
+            target="_blank"
+          >
             <h4>REST API Node.js</h4>
           </a>
-          <p>A complete REST Api using asynchronous requests, and communicate with a MongoBD database using mongoose</p>
+          <p>
+            A complete REST Api using asynchronous requests, and communicate
+            with a MongoBD database using mongoose
+          </p>
           <p className="skill">JavaScript Node.js MongoBD Mongoose Postman</p>
-          <img src={API}></img>
+          <a
+            href="https://github.com/foxdrow/task-manager-rest-api"
+            target="_blank"
+          >
+            <img src={API}></img>
+          </a>
         </div>
-        <p className="conclusion">And other projects available on my github !</p>
+        <p className="conclusion">
+          And other projects available on my github !
+        </p>
       </section>
     </div>
   );
