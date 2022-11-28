@@ -8,6 +8,7 @@ import cssfr1 from "../assets/img/cssfr1.png";
 import cssfr2 from "../assets/img/cssfr2.png";
 import IRC from "../assets/img/IRC.png";
 import API from "../assets/img/expressApi.png";
+import GNS3 from "../assets/img/gns3.png";
 
 export default function Work() {
   return (
@@ -35,7 +36,10 @@ export default function Work() {
           >
             <h4>GraphQL API</h4>
           </a>
-          <p>I have create a basic social API using GraphQL and the prisma.io v2 ORM</p>
+          <p>
+            I have create a basic social API using GraphQL and the prisma.io v2
+            ORM
+          </p>
           <p className="skill">JavaScript GraphQL Node.js PrismaV2</p>
           <a
             href="https://github.com/foxdrow/basicGraphQLSocialAPI"
@@ -43,6 +47,15 @@ export default function Work() {
           >
             <img src={graphql}></img>
           </a>
+        </div>
+        <div id="network">
+          <h4>Network</h4>
+          <p>
+            I am able to simulate and set up an entire network with virtual
+            machines
+          </p>
+          <p className="skill">GNS3 PacketTracer Wireshark VMware</p>
+          <img src={GNS3}></img>
         </div>
         <div id="twitter">
           <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
@@ -55,16 +68,6 @@ export default function Work() {
           <p className="skill">PHP MySql JavaScript Jquery</p>
           <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
             <img src={twitter}></img>
-          </a>
-        </div>
-        <div id="snap">
-          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
-            <h4>Snapchat React Native</h4>
-          </a>
-          <p>A Snapchat clone built with React native 👻</p>
-          <p className="skill">JavaScript ReactNative Node.js</p>
-          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
-            <img src={snap}></img>
           </a>
         </div>
         <div id="cssfr">
@@ -105,6 +108,16 @@ export default function Work() {
             target="_blank"
           >
             <img src={API}></img>
+          </a>
+        </div>
+        <div id="snap">
+          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
+            <h4>Snapchat React Native</h4>
+          </a>
+          <p>A Snapchat clone built with React native 👻</p>
+          <p className="skill">JavaScript ReactNative Node.js</p>
+          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
+            <img src={snap}></img>
           </a>
         </div>
         <p className="conclusion">

@@ -69,7 +69,7 @@
         text-align: end;
       }
     }
-    #twitter {
+    #network {
       display: flex;
       flex-direction: column;
       img {
@@ -83,6 +83,24 @@
         color: $paragraph;
         padding-top: 1.7rem;
         width: 45rem;
+      }
+    }
+    #twitter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      img {
+        max-width: 30vw;
+        padding-top: 3rem;
+      }
+      p:not(.skill) {
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
+        font-size: $m-size;
+        color: $paragraph;
+        padding-top: 1.7rem;
+        width: 45rem;
+        text-align: end;
       }
     }
     #snap {
